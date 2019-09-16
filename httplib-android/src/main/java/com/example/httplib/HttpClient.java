@@ -160,7 +160,7 @@ public class HttpClient {
 
             while ( ( line = reader.readLine() ) != null )
             {
-                buffer.append( line + "\n" );
+                buffer.append( line );
             }
 
             return buffer.toString();
